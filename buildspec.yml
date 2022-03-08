@@ -2,10 +2,10 @@ version: 0.2
 
 env:
    parameter-store:
-           DB_USER: "/vivek/DBUSER"
-           DB_PASSWORD: "/vivek/DBPASS"
-           DB_HOST: "/vivek/DBHOST"
-           DB_NAME: "/vivek/DBNAME"
+           DB_USER: "/vivek/cicd/DBUSER"
+           DB_PASSWORD: "/vivek/cicd/DBPASS"
+           DB_HOST: "/vivek/cicd/DBHOST"
+           DB_NAME: "/vivek/cicd/DBNAME"
 
 phases:
     build:
